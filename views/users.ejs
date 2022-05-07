@@ -1,0 +1,8 @@
+<h1>Liste des utilisateurs </h1>
+<% u.forEach(function(user){ %>
+    <%= user.login %>
+    <%= user.pwd %>
+    <br>
+<% }); %>
+
+<a href="/formAjout">Ajouter un utilisateur</a>
